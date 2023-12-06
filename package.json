@@ -1,0 +1,15 @@
+{
+  "name": "quarkus-testing-junit-mockito",
+  "version": "1.0.0",
+  "description": "This project uses Quarkus, the Supersonic Subatomic Java Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mario Ceferino Ibanez Hancco",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}
