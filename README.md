@@ -6,7 +6,31 @@
 # Testing Quarkus application with Junit 5, Mockito and H2 Database | Quarkus Tutorial | Java
 # https://www.youtube.com/watch?v=y6B8mXEv5gA
 
+Projeto Final do curso de VVS - 2023/2
+
+Analisis estatica com PMD
+mepregando PMD se verifica a Documentação do código, na pasta Target arquivo pmd.xml
+
+Testes Unitarios com Mock - Mockito
+
+Testes de Componentes com Rest Assured
+
+Teste de Sistema com CYpress
+empregando Swagge-Openapi
+
+Ambiente de integração continua em Github Action
+.github/workflows
+maven.yml
+ao ser realizado um push - pull_request em "main"
+empregando jobs , build, steps
+
+
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
+
+** Docker db Postgres **
+
+docker run --name my_db -e POSTGRES_USER=username -e POSTGRES_PASSWORD=password -e POSTGRES_DB=my_db -p 5432:5432 postgres:16.1 
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
